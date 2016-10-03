@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyCollectionViewController.h
 //  TetsCollection
 //
 //  Created by Oslo on 10/3/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MyCollectionViewController : UICollectionViewController
 
 @end
-

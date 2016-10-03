@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		67720FE11DA21B010026E295 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67720FE01DA21B010026E295 /* main.m */; };
 		67720FE41DA21B010026E295 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67720FE31DA21B010026E295 /* AppDelegate.m */; };
-		67720FE71DA21B010026E295 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67720FE61DA21B010026E295 /* ViewController.m */; };
 		67720FEA1DA21B010026E295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67720FE81DA21B010026E295 /* Main.storyboard */; };
 		67720FEC1DA21B010026E295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67720FEB1DA21B010026E295 /* Assets.xcassets */; };
 		67720FEF1DA21B010026E295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67720FED1DA21B010026E295 /* LaunchScreen.storyboard */; };
 		67720FFA1DA21B010026E295 /* TetsCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67720FF91DA21B010026E295 /* TetsCollectionTests.m */; };
 		677210051DA21B010026E295 /* TetsCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 677210041DA21B010026E295 /* TetsCollectionUITests.m */; };
+		677210141DA21B1A0026E295 /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677210131DA21B1A0026E295 /* MyCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		67720FE01DA21B010026E295 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		67720FE21DA21B010026E295 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		67720FE31DA21B010026E295 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		67720FE51DA21B010026E295 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		67720FE61DA21B010026E295 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		67720FE91DA21B010026E295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67720FEB1DA21B010026E295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67720FEE1DA21B010026E295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		677210001DA21B010026E295 /* TetsCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetsCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		677210041DA21B010026E295 /* TetsCollectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TetsCollectionUITests.m; sourceTree = "<group>"; };
 		677210061DA21B010026E295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		677210121DA21B1A0026E295 /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
+		677210131DA21B1A0026E295 /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +103,13 @@
 			children = (
 				67720FE21DA21B010026E295 /* AppDelegate.h */,
 				67720FE31DA21B010026E295 /* AppDelegate.m */,
-				67720FE51DA21B010026E295 /* ViewController.h */,
-				67720FE61DA21B010026E295 /* ViewController.m */,
 				67720FE81DA21B010026E295 /* Main.storyboard */,
 				67720FEB1DA21B010026E295 /* Assets.xcassets */,
 				67720FED1DA21B010026E295 /* LaunchScreen.storyboard */,
 				67720FF01DA21B010026E295 /* Info.plist */,
 				67720FDF1DA21B010026E295 /* Supporting Files */,
+				677210121DA21B1A0026E295 /* MyCollectionViewController.h */,
+				677210131DA21B1A0026E295 /* MyCollectionViewController.m */,
 			);
 			path = TetsCollection;
 			sourceTree = "<group>";
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67720FE71DA21B010026E295 /* ViewController.m in Sources */,
+				677210141DA21B1A0026E295 /* MyCollectionViewController.m in Sources */,
 				67720FE41DA21B010026E295 /* AppDelegate.m in Sources */,
 				67720FE11DA21B010026E295 /* main.m in Sources */,
 			);
